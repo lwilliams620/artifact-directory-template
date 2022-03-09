@@ -1,5 +1,5 @@
 Title:
-<MY SUPER AWESOME PROJECT TITLE>
+Investigation and Analysis on Quantization of Neural Networks
 
 Abstract:
-<MY SUPER AWESOME PROJECT ABSTRACT>
+Our problem of interest for this project is to investigate ways to reduce the size of machine learning models while maintaining the same functionalities and performances as before. Our initial step is to investigate the methods introduced in the paper “Quantized Neural Networks: Training Neural Networks with Low Precision Weights and Activations”. We will reproduce the methods and experiments described in the paper with more modernized libraries, Tensorflow and PyTorch, instead of Theano which was what the paper originally used. After we have a better understanding of neural networks and the current methods, we will shift our focus on assessing the effect of changing the number of bits has on the performance of our neural network mode. Additionally, we will explore if the use of other functions(other than the HardTanh function) during backpropagation affects BNNs’ accuracy.
